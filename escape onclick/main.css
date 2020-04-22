@@ -1,0 +1,358 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(49, 49, 49);
+}
+
+h1{
+    color: white;
+}
+
+
+.salon{
+    width: 960px;
+}
+
+.groupeDiv
+{
+    position: absolute;
+    width: 960px;
+    height: 714.41px;
+}
+
+
+
+.vase{
+    position: absolute;
+    top:185px;
+    left: 108px;
+    width: 40px;
+    height: 65px;
+    z-index: 10;
+}
+
+.tiroir1{
+    position: absolute;
+    top:344PX;
+    left: 459PX;
+    width: 40px;
+    height: 6px;
+    z-index: 10;
+    transform: rotate(-16deg);
+}
+
+.tiroir2{
+    position: absolute;
+    top:361PX;
+    left: 458PX;
+    width: 46px;
+    height: 14px;
+    z-index: 10;
+    transform: rotate(-16deg);
+
+}
+
+.cadre{
+    position: absolute;
+    top:191PX;
+    left: 175PX;
+    width: 51px;
+    height: 25px;
+    z-index: 10;
+    transform: rotate(-90deg);
+
+}
+
+.coussin{
+    position: absolute;
+    top:325px;
+    left:307px;
+    width: 70px;
+    height: 50px;
+    z-index: 10;
+    transform: rotate(-70deg);
+
+}
+
+.key{
+    position: absolute;
+    top:343px;
+    left:324px;
+    width: 38px;
+    height: 27px;
+    z-index: 10;
+    transform: rotate(-70deg);
+    display: none;
+
+
+
+}
+
+.theDoor{
+    position: absolute;
+    top:176PX;
+    left:771px;
+    width: 118px;
+    height: 300px;
+    z-index: 10;
+    display:none;  
+
+}
+
+
+
+
+.messageWin{
+    position: absolute;
+    font-size: 100px;
+    display: none;
+
+}
+
+.messageLose{
+    position: absolute;
+    font-size: 50px;
+    display: none;
+
+}
+
+.messageKey
+{
+    position: absolute;
+    font-size: 50px;
+    display: none;
+
+}
+
+/* Room 2 */
+
+.messageCorkscrew
+{
+    position: absolute;
+    font-size: 50px;
+    display: none;
+    color: red;
+}
+
+/* Room 2 */
+
+.groupeDiv2
+{
+    position: absolute;
+    width: 960px;
+    height: 714.41px;
+}
+
+.cuisine{
+    width: 960px;
+}
+
+
+
+.room2{
+    display: none;
+}
+
+
+.frigoBas
+{
+position: absolute;
+width: 102px;
+height: 170px;
+left: 453px;
+top: 250px;
+z-index:20;
+
+}
+
+
+.frigoBasClef
+{
+position: absolute;
+width: 102px;
+height: 170px;
+left: 453px;
+top: 250px;
+
+}
+
+.tiroirMilieu
+{
+position: absolute;
+width: 77px;
+height: 19px;
+left: 201px;
+top: 438px;
+transform: rotate(-16deg);
+z-index:20;
+}
+
+
+.tirebouchon
+{
+position: absolute;
+width: 20px;
+height: 19px;
+left: 255px;
+top: 444px;
+transform: rotate(-16deg);
+
+}
+
+
+
+
+.tiroirBas
+{
+position: absolute;
+width: 74px;
+height: 32px;
+left: 205px;
+top: 464px;
+transform: rotate(-16deg);
+z-index: 20;
+
+}
+
+
+.tiroirBasClef
+{
+position: absolute;
+width: 74px;
+height: 32px;
+left: 205px;
+top: 464px;
+transform: rotate(-16deg);
+}
+
+
+.tiroirHaut
+{
+position: absolute;
+width: 77px;
+height: 17px;
+left: 201px;
+top: 409px;
+transform: rotate(-16deg);
+z-index: 20;
+
+}
+
+
+.tiroirHautClef
+{
+position: absolute;
+width: 77px;
+height: 17px;
+left: 201px;
+top: 409px;
+transform: rotate(-16deg);
+
+}
+
+
+.assiete
+{
+position: absolute;
+width: 57px;
+height: 34px;
+left: 513px;
+top: 468px;
+transform: rotate(-25deg);
+z-index: 20;
+
+}
+
+
+.assieteClef
+{
+position: absolute;
+width: 57px;
+height: 34px;
+left: 513px;
+top: 468px;
+transform: rotate(-25deg);
+
+}
+
+
+.robinet
+{
+position: absolute;
+width: 24px;
+height: 30px;
+left: 255px;
+top: 320px;
+z-index: 20;
+
+}
+
+
+.robinetClef
+{
+position: absolute;
+width: 24px;
+height: 30px;
+left: 255px;
+top: 320px;
+
+}
+
+.bouteille
+{
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    left: 161px;
+    top: 159px;
+    z-index: 20;
+    display: none;
+}
+
+.bouteilleClef
+{
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    left: 166px;
+    top: 121px;
+    display: none;
+}
+
+.door2{
+    position: absolute;
+    width: 112px;
+    height: 281px;
+    left: 776px;
+    top: 185px;
+    display: none; 
+}
+
+.doorClosed{
+    position: absolute;
+    width: 112px;
+    height: 281px;
+    left: 776px;
+    top: 185px; 
+    z-index: 20;
+}
+
+.bottleClosed{
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    left: 161px;
+    top: 159px;
+    z-index: 20;
+}
+
+
+
+
+
+
+
+
+
+
